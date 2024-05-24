@@ -1,4 +1,4 @@
-$default-border-right: 0.5rem solid black;
+$default-border-size: 2rem solid black;
 
 ._spiner {
   position: absolute;
@@ -6,14 +6,9 @@ $default-border-right: 0.5rem solid black;
   margin: auto;
   height: 90%; width: 90%;
   border-radius: 100%;
-  border-right: $default-border-right;
+  border-right: $default-border-size;
+  border-bottom: $default-border-size;
   animation: spinning 30s linear infinite;
-}
-
-.spiner-container {
-  position: relative;
-  width: 20rem;
-  height: 20rem;
 }
 
 @keyframes spinning {

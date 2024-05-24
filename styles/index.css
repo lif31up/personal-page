@@ -10,14 +10,9 @@
   height: 90%;
   width: 90%;
   border-radius: 100%;
-  border-right: 0.5rem solid black;
+  border-right: 2rem solid black;
+  border-bottom: 2rem solid black;
   animation: spinning 30s linear infinite;
-}
-
-.spiner-container {
-  position: relative;
-  width: 20rem;
-  height: 20rem;
 }
 
 @keyframes spinning {
@@ -32,6 +27,9 @@ html {
   font-size: 16px;
   color: black;
   font-family: "Lalezar", sans-serif;
+}
+
+body {
   background: red;
 }
 
