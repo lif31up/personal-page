@@ -1,0 +1,26 @@
+$default-border-right: 0.5rem solid black;
+
+._spiner {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: auto;
+  height: 90%; width: 90%;
+  border-radius: 100%;
+  border-right: $default-border-right;
+  animation: spinning 30s linear infinite;
+}
+
+.spiner-container {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+}
+
+@keyframes spinning {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
