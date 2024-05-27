@@ -1,5 +1,9 @@
 /*external sources*/
-@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap");
+._font-just {
+  font-family: "Just Me Again Down Here", cursive;
+}
+
 ._spiner {
   position: absolute;
   top: 0;
@@ -26,7 +30,7 @@
 html {
   font-size: 16px;
   color: black;
-  font-family: "Lalezar", sans-serif;
+  font-family: "Just Me Again Down Here", sans-serif;
 }
 
 body {

@@ -9,7 +9,7 @@ function ShortcutList({}) {
   };
   return (
     <div className={`${style.xl} ${style.base}`}>
-      <div className="grid gap-1 w-56">
+      <div className="grid gap-1 w-56  _font-just">
         <Shortcut
           text="SoundCloud"
           href="https://on.soundcloud.com/fuMxVfuHTdSG88EN9"
