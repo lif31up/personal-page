@@ -31,11 +31,14 @@ function Shortcut({ text, href }: { text: string; href: string }) {
   const clickHandler = () => window.open(href);
   const style: TailwindProperties = {
     xl: "",
-    base: "w-full h-fit px-4 py-2  bg-black text-white",
+    base: "w-full h-fit px-4 py-2 text-white  shadow-lg  bg-black",
   };
   return (
-    <button onClick={clickHandler} className={`${style.xl} ${style.base}`}>
-      {text}
+    <button
+      onClick={clickHandler}
+      className={`${style.xl} ${style.base} relative  bg-opacity-20`}
+    >
+      <>{text}</>
     </button>
   );
 }
