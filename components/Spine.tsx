@@ -34,7 +34,7 @@ function Spine({ data, className }: DefaultProps<SpineData>) {
   return (
     <section
       className={`${style.size} ${style.color} ${style.display} ${className} -z-50`}
-      style={{ filter: "blur(2px)" }}
+      style={{ filter: "blur(1px)" }}
     >
       <div className="absolute  flex items-center justify-center" style={size}>
         <div title="container">

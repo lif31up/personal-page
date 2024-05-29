@@ -16,6 +16,9 @@ export default function Home() {
     <main
       className={`${style.size} ${style.display} ${style.color} ${style.deco}`}
     >
+      <h1 className="absolute  bottom-52  outline outline-2  text-red-900 font-bold _font-slab bg-slate-900 px-2">
+        Looking For Crew Now!
+      </h1>
       <Spine data={{ circles: 8, border: "" }} />
       <ProfileCard />
     </main>
