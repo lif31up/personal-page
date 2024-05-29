@@ -16,7 +16,7 @@ export default function Home() {
     <main
       className={`${style.size} ${style.display} ${style.color} ${style.deco}`}
     >
-      <h1 className="absolute  bottom-52  outline outline-2 outline-red-900  text-red-600 font-bold _font-slab bg-slate-900 px-2">
+      <h1 className="absolute  bottom-56  outline outline-2 outline-red-900  text-red-600 font-bold _font-slab bg-slate-900 px-2">
         Looking For Crew Now!
       </h1>
       <Spine data={{ circles: 8, border: "" }} />
